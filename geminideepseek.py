@@ -4,15 +4,16 @@ from google import genai
 from google.genai.types import GenerateContentConfig
 
 # Initialize client once
-KEY = "AIzaSyANFwup2wz2SVRrgCRmTUOedpJmADJ5CAQ"  # Replace with your actual key
+KEY = "AIzaSyANFwup2wz2SVRrgCRmTUOedpJmADJ5CAQ"
 client = genai.Client(api_key=KEY)
 
-# System instruction constant
-SYSTEM_INSTRUCTION = """Hello Gemini, I have a transcribed text file from an audio journal. Please convert it into a concise summary with:
-- Bullet-point format
-- Key insights and action items
-- Original tone preservation
-- Clear organization"""
+# Updated system instruction for dialogue analysis
+SYSTEM_INSTRUCTION = """Analyze this conversation transcript and create a concise summary that:
+- Identifies key revelations and turning points
+- Tracks speaker dynamics and roles
+- Highlights chronological progression
+- Presents main points in bullet format
+- Marks important timestamps where crucial information occurs"""
 
 def process_files():
     dtr_path = r'C:\Users\smith\OneDrive\Documents\GitHub\HackKU2025\Recorded_texts'
@@ -28,15 +29,19 @@ def process_files():
                     with open(file_path, 'r', encoding='utf-8') as f:
                         json_data = json.load(f)
                         
-                        # Format with required role field
+                        # Modified formatting for dialogue entries
                         formatted_contents = [
                             {
-                                "role": "user",  # Critical fix
+                                "role": "user",
                                 "parts": [{
-                                    "text": f"Title: {entry['title']}\nContent: {entry['content']}"
+                                    "text": (
+                                        f"[{entry['speaker']} @ {entry['start']:.1f}s]\n"
+                                        f"{entry['text']}\n"
+                                        f"(Duration: {entry['end']-entry['start']:.1f}s)"
+                                    )
                                 }]
                             }
-                            for entry in json_data.values()
+                            for entry in json_data  # Direct list iteration
                         ]
                         
                         # API call
@@ -54,6 +59,8 @@ def process_files():
                         
                 except json.JSONDecodeError:
                     print(f"Invalid JSON format in {filename}")
+                except KeyError as ke:
+                    print(f"Missing required field {ke} in {filename}")
                 except Exception as e:
                     print(f"Error processing {filename}: {str(e)}")
     

@@ -1,4 +1,4 @@
-KEY = "AIzaSyANFwup2wz2SVRrgCRmTUOedpJmADJ5CAQ"
+KEY = "AIzaSyANFwup2wz2S_DELETE_THIS_VRrgCRmTUOedpJmADJ5CAQ"
 
 from google import genai
 

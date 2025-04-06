@@ -49,7 +49,3 @@ if __name__ == "__main__":
     )
     with open(os.path.join(OFFICER_PATH, 'summaries/summary.txt'), 'w') as summary_file:
         summary_file.write(response.text)
-    print("\nFinal Summaries:")
-    # for idx, summary in enumerate(summaries, 1):
-    #     print(f"\nSummary #{idx}:\n{summary}")
-    #     print("-" * 50)

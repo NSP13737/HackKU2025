@@ -1,0 +1,6 @@
+Please provide the conversation transcript you would like me to analyze and summarize. I need the text of the conversation to perform the task you've described. Once you provide the transcript, I will create a concise summary that:
+
+*   **Identifies key revelations and turning points:** Pinpointing moments of significant information or changes in direction.
+*   **Tracks speaker dynamics and roles:** Analyzing how speakers interact and their relative power or influence.
+*   **Highlights chronological progression:** Summarizing the conversation's flow from beginning to end.
+*   **Presents main points in bullet format:** Organizing the information for easy readability.

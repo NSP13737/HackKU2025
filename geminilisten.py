@@ -12,7 +12,7 @@ Please convert it into a concise summary with bullet points that highlight:
 - Actionable items or recommendations
 - Important context and tone preservation"""
 
-dtr_path = r'C:\Users\smith\OneDrive\Documents\GitHub\HackKU2025\Recorded_texts'
+dtr_path = 'Recorded_texts'
 
 for root, dirs, files in os.walk(dtr_path):
     for filename in files:

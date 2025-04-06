@@ -16,11 +16,11 @@ SYSTEM_INSTRUCTION = """Analyze this conversation transcript and create a concis
 - Marks important timestamps where crucial information occurs"""
 
 def process_files():
-    dtr_path = r'C:\Users\smith\OneDrive\Documents\GitHub\HackKU2025\Recorded_texts'
+    dtr_path = 'Recorded_texts'
     all_summaries = []
-    
     for root, _, files in os.walk(dtr_path):
         for filename in files:
+            print(filename)
             if filename.endswith('.json'):
                 file_path = os.path.join(root, filename)
                 print(f"\nProcessing: {filename}")

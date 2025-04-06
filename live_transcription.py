@@ -4,7 +4,8 @@ import keyboard
 import datetime
 import pyaudio
 import wave
-HUGGINGFACETOKEN = '"hf_PHuIpkHZVUj_____________JTAgiiNZgZhYBHppjvbCWCd"'
+import json
+HUGGINGFACETOKEN = "hf_PHuIpkHZVUjJTAg____iiNZgZhYBHppjvbCWCd"
 
 def getDiarizedTranscript(audio_file_path):
 
@@ -48,7 +49,7 @@ def getDiarizedTranscript(audio_file_path):
     for i in range(len(output)):
         output[i].pop('words')
 
-    return output # segments are now assigned speaker IDs
+    return json.dumps(output, indent=2) # segments are now assigned speaker IDs
 
 
 
@@ -111,8 +112,7 @@ while (1):
         with open(os.path.join(TRANSCRIPT_DIRECTORY, transcript_file_name), 'w') as transcript:
             print(f"Opening {transcript}")
             transcript_dict = getDiarizedTranscript(audio_file_path)
-            for segment in transcript_dict:
-                transcript.write(str(segment)+"\n")
+            transcript.write(transcript_dict)
             
 
 

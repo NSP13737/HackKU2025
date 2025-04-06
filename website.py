@@ -6,8 +6,7 @@ import time
 import keyboard
 from TranscriptPathSummarizer import TranscriptSummarizer
 
-#Example below
-transcriber = AudioTranscriber()
+
 
 st.set_page_config()
 
@@ -47,14 +46,16 @@ elif st.sidebar.button("03/14/2025 Summary"):
 st.subheader("Summary")
 
 if st.button("Start Recording"):
-    st.info("Recording generation triggered. Press the Spacebar to stop.")
+    transcriber = AudioTranscriber(officer_number="002")
+    st.info("Recording generation triggered. Press the Spacebar to stop. You can view the output in the terminal")
     transcriber.start_processing()
     keyboard.wait('space')
     print("Recording stopped.")
     transcriber.stop_processing()
-    # audio_file = st.file_uploader("Upload an audio file", type=["mp3", "wav", "m4a"])
-    # if audio_file:
-    #     st.audio(audio_file, format='audio/mp3')
+    summarizer = TranscriptSummarizer(officer_number="002")
+    summary2 = summarizer.generate_summary()
+    print(summary2)
+    st.write(summary2)
 
 
     

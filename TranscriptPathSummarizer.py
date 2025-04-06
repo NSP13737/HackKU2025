@@ -4,7 +4,7 @@ from google import genai
 from google.genai.types import GenerateContentConfig
 
 class TranscriptSummarizer:
-    def __init__(self, key="AIzaSyANFwup2wz2SVRrgCRmTUOedpJmADJ5CAQ", officer_number="001", base_path=None, system_instruction=None):
+    def __init__(self, key="AIzaSyANFwup2wz2SVRrgCRmTUOedpJmADJ5CAQ", officer_number="001", base_path=None, relative_path=f"officer_data/officer_", system_instruction=None):
         """
         Initializes the TranscriptSummarizer with the API key, officer number (used for file paths),
         and an optional system instruction for the dialogue analysis.
@@ -12,7 +12,7 @@ class TranscriptSummarizer:
         self.key = key
         self.officer_number = officer_number
         self.base_path = base_path or os.getcwd()
-        self.officer_path = os.path.join(self.base_path, f"officer_data/officer_{self.officer_number}")
+        self.officer_path = os.path.join(self.base_path, relative_path+officer_number)
         
         # Initialize the GenAI client once
         self.client = genai.Client(api_key=self.key)

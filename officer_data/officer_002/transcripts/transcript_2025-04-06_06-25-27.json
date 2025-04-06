@@ -1,0 +1,14 @@
+[
+  {
+    "text": " Hello.",
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "text": "Maybe this is working now.",
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "text": "If it is, you should write 1, 2, 3 in the summary.",
+    "speaker": "SPEAKER_00"
+  }
+]

@@ -9,11 +9,7 @@ OFFICER_PATH = os.path.join(os.getcwd(), 'officer_data/officer_001/')
 client = genai.Client(api_key=KEY)
 
 # Updated system instruction for dialogue analysis
-SYSTEM_INSTRUCTION = """Analyze this conversation transcript and create a concise summary that:
-- Identifies key revelations and turning points
-- Tracks speaker dynamics and roles
-- Highlights chronological progression
-- Presents main points in bullet format"""
+SYSTEM_INSTRUCTION = """Hello Gemini, I have a transcribed text file from an audio journal of a police bodycam interaction, and I need your help in converting it into a concise, well-organized summary. Please analyze the transcription and produce summarized notes that capture the key insights, main ideas, and any actionable items mentioned in the original text. Your summary should: Eliminate any redundant or extraneous dialogue, focusing only on the core content. Be structured in clear, bullet-point format, or use short paragraphs if that improves clarity. Retain the original tone and context where appropriate, ensuring that no important nuance is lost. Highlight any recommendations or action steps that the speaker might have implied or stated explicitly. Please output your summary in a way that allows a reader to quickly understand the most important information without needing to refer back to the full transcript. The full transcript will be provided underneath this contextual paragraph."""
 
 def process_files(path_to_search):
     all_summaries = []

@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-<<<<<<< HEAD
-=======
-# import matplotlib.pyplot as plt  <-- Commented out for now
 from AudioTranscriberMultithreaded import AudioTranscriber
 import time
 import keyboard
@@ -10,13 +7,11 @@ from TranscriptPathSummarizer import TranscriptSummarizer
 
 #Example below
 transcriber = AudioTranscriber()
->>>>>>> 3406cd703138b585f1f05b760db09f28612efd69
 
-st.set_page_config(page_title="OWL - Observational Watch Log")
+st.set_page_config(page_title="OWL")
 
-st.title("OWL - Observational Watch Log")
+st.title("Observational Watch Log")
 
-<<<<<<< HEAD
 #Produce an image
 # Load image
 from PIL import Image
@@ -43,12 +38,7 @@ st.markdown(f"""
 if "selected_summary" not in st.session_state:
     st.session_state.selected_summary = None
 
-# Sidebar: Summary buttons
-=======
-
-# Sidebar
->>>>>>> 3406cd703138b585f1f05b760db09f28612efd69
-st.sidebar.title("Summaries")
+# Sidebar: Summary buttonsst.sidebar.title("Summaries")
 
 if st.sidebar.button("Summarize file path"):
     summarizer = TranscriptSummarizer()

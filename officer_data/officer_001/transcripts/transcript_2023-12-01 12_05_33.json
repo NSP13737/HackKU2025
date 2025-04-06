@@ -1,0 +1,62 @@
+[
+    {
+      "text": "Sir, I'm going to need you to stop right there. Can I see your hands?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Whoa, officer, what's going on? I'm just walking home.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "We've received reports of a man matching your description attempting to break into parked cars in this area.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "That's crazy! I haven't touched any cars. You've got the wrong guy.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Sir, do you have any identification on you?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, it's in my wallet. Look, I can show you.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Keep your hands where I can see them, sir. Slowly reach for your wallet. Don't make any sudden movements.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Okay, okay. Just taking it out... here.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "(sound of rustling) Okay, I see your driver's license. Where were you coming from?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "From my friend's place, a few blocks over. We were playing video games.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Can you give me his address?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, sure. It's... (gives address).",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Alright. I'm going to run your information. Just stay here for a moment.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "This is ridiculous. I'm going to be late.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Just a moment, sir.",
+      "speaker": "SPEAKER_00"
+    }
+  ]

@@ -1,0 +1,54 @@
+[
+    {
+      "text": "Sir, can you tell me what happened here?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "I... I don't know. One minute I was walking, and the next, I was on the ground.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Did you see anyone, or anything, before you fell?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "No, it all happened so fast. I think I tripped.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Are you injured, sir? Can I call for medical assistance?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "My ankle hurts. I think I twisted it. Maybe just a sprain.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Let me take a look. Can you move your toes?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, I can move them. It just hurts when I try to put weight on it.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Alright. I'm going to call for an ambulance, just to be safe. We need to make sure there are no fractures.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "No, really, it's fine. I can get a ride home. I don't want to go to the hospital.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Sir, I understand, but it's better to be safe than sorry. We need to rule out anything serious.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Fine. But this is going to be a huge bill.",
+      "speaker": "SPEAKER_01"
+    },
+      {
+      "text": "We'll take care of the details later, sir. Right now, let's focus on getting you some help.",
+      "speaker": "SPEAKER_00"
+    }
+  ]

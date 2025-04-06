@@ -1,0 +1,42 @@
+[
+    {
+      "text": "Ma'am, I'm Officer Johnson. Can I see your driver's license and registration, please?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Sure, officer. Here you go. Is there a problem?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Your taillight is out, ma'am. Did you know that?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Oh, really? I didn't even notice. I'm so sorry.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "No worries, ma'am. Just wanted to let you know. I'm going to have to write you a warning.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Oh, thank goodness. I'm so glad it wasn't anything serious.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Just be sure to get that taillight fixed as soon as possible. It's a safety hazard.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "I will, officer. Thank you for letting me know.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Here's your license and registration. Have a good night, ma'am.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Thank you, officer. You too.",
+      "speaker": "SPEAKER_01"
+    }
+  ]

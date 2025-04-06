@@ -1,0 +1,62 @@
+[
+    {
+      "text": "Excuse me, sir, can I have a word with you?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, what's up?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "We've received a report of a disturbance in this area. Were you involved in any altercation?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Me? No, man. I was just walking by.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "You were seen leaving the alleyway just now. Did you see or hear anything unusual?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Nah, didn't see nothin'. Just taking a shortcut.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Sir, there was a reported assault. We need you to be truthful. Did you see anyone running, or hear any yelling?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Look, I told you, I didn't see anything. I gotta go.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Sir, I'm going to need you to stop. We need to get a statement from you.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Statement? I don't know anything! You're wasting my time.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Sir, if you refuse to cooperate, you could be obstructing an investigation.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Fine, fine. I heard some shouting, okay? But I didn't see anything. Now can I go?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Can you describe the direction of the shouting? And the approximate time?",
+      "speaker": "SPEAKER_00"
+    },
+      {
+      "text": "It was... back that way. Maybe five minutes ago? I don't know, man. Just leave me alone.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Alright, thank you for your cooperation. We might need to contact you again. Here's my card.",
+      "speaker": "SPEAKER_00"
+    }
+  ]

@@ -1,0 +1,8 @@
+try this three by to matrix with the to the vector list
+the to d vectors will get transform to a third dimension
+the vectors line on this plane after transformation is the column space now let's combine the column of this matrix we will get another three d vector it can be found lying on the same color space let's add this to her matrix
+now we get is the three by three matrices
+and when it is multiplied with three d vectors lying on space it will squeeze all of them to the same column space
+watch properly during transformation certain vectors got absorbed on the origin
+and the list of vectors or the lines that goes to origin during transformation is the no space
+they're coordinates can be obtained by solving this matrix equation

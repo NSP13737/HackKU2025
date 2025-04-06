@@ -1,0 +1,58 @@
+[
+    {
+      "text": "Evening, sir. Can I see some ID?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Sure, officer. What's this about?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "We've had a few reports of someone matching your description acting suspiciously in this area. Just routine questioning.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Suspicious? I'm just walking home from work.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Where do you work, sir?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Downtown. The diner on Elm Street.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "And what time did you leave work?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "About an hour ago. I take my time walking.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Do you mind if I pat you down for weapons, sir?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "What? No! I'm not carrying anything.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Sir, it's a standard procedure. Please just cooperate.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Fine. But this is ridiculous.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "(sound of rustling) All clear. Just a wallet and keys. You're free to go, sir. Have a good night.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, you too.",
+      "speaker": "SPEAKER_01"
+    }
+  ]

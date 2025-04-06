@@ -1,0 +1,42 @@
+[
+    {
+      "text": "Ma'am, I'm going to need you to slow down. You were doing 40 in a 25.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Oh my goodness, I'm so sorry, officer. I didn't realize I was going that fast.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Do you have your license and registration with you?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yes, of course. Here they are. I was just trying to get home before it started raining.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I understand, ma'am, but that's no excuse for speeding. It's dangerous, especially in a residential area.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "You're right, officer. I'm so sorry. I'll be more careful next time.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I'm going to write you a warning this time, but please slow down. This is your warning.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Thank you, officer. I really appreciate that.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Here's your paperwork. Drive safely, ma'am.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "I will, officer. Thank you again.",
+      "speaker": "SPEAKER_01"
+    }
+  ]

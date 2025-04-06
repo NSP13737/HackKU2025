@@ -1,0 +1,50 @@
+[
+    {
+      "text": "License and registration, please.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Uh, yeah, sure. Here you go. I don't understand why you pulled me over.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "You were clocked at 45 in a 30 zone, sir.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "45? That's ridiculous! I was barely going over 35. This is a setup.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Sir, the radar doesn't lie. I have you on record.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Look, I'm late for a meeting. This is really going to mess up my day. Can't you just give me a warning?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I understand you're in a hurry, but speeding is dangerous. It puts yourself and others at risk. I'm going to have to write you a ticket.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "This is unbelievable. You cops are just out to get people.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Sir, I'm just doing my job. Please keep your hands on the steering wheel while I process this.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Fine. Whatever. Just hurry up.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Here's your ticket and your documents. Please drive safely.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, yeah. Thanks.",
+      "speaker": "SPEAKER_01"
+    }
+  ]

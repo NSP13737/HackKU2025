@@ -1,0 +1,46 @@
+[
+    {
+      "text": "Sir, I'm going to need you to put that down. It's against city ordinance to drink in public.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "What? It's just a beer. I'm not bothering anyone.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I understand, but the law is the law. I'm going to have to ask you to pour it out.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Seriously? This is ridiculous. I'm not hurting anyone.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I understand your frustration, sir. But if I let you drink, I have to let everyone drink. It's about maintaining order.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Fine. But this is a waste of everyone's time.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "(sound of liquid pouring out) Thank you for your cooperation, sir. I appreciate it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, whatever.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Just so you know, sir, if you're caught drinking in public again, I'll have to issue a citation.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Got it. Can I go now?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Yes, sir. Have a good night.",
+      "speaker": "SPEAKER_00"
+    }
+  ]

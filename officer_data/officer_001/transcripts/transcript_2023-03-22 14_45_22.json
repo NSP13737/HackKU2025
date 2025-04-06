@@ -1,0 +1,50 @@
+[
+    {
+      "text": "Ma'am, I'm going to need you to step away from the merchandise.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "What? I'm just looking.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I understand, but I've been observing you for the past few minutes, and it appears you've concealed several items in your bag.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "That's ridiculous! I haven't taken anything. You're accusing me of stealing?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I'm not accusing you of anything yet. I just need you to cooperate. Could you please open your bag?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "No! I'm not opening my bag. You have no right to search my belongings.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Ma'am, if you refuse to cooperate, I'll have to detain you. We can resolve this much more easily if you just show me what's in your bag.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Fine! But you're going to feel really stupid when you see I haven't stolen anything.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "(sound of rustling) Okay, I see several items here that still have the security tags attached. Do you have receipts for these?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Uh... no. I was going to pay for them.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Ma'am, that's not how this works. You need to pay for items before you put them in your bag. I'm going to have to take you into custody.",
+      "speaker": "SPEAKER_00"
+    },
+      {
+      "text": "This is a misunderstanding! Please, I have kids!",
+      "speaker": "SPEAKER_01"
+    }
+  ]

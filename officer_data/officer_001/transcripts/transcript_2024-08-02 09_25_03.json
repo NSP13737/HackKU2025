@@ -1,0 +1,54 @@
+[
+    {
+      "text": "Sir, I'm going to need you to step away from the building. It's closed for the night.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "But I'm just trying to get my phone. I left it inside.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "What time did you leave it inside?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "About an hour ago. I was working late.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "And you didn't realize you left it until now?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, I was almost home when I realized. It's really important. I have some important contacts on there.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Unfortunately, sir, I can't let you back in. The building is secured, and I don't have the authority to reopen it.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "But there has to be something you can do. I really need that phone.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I understand your frustration, sir. But I can't override building security. You'll have to come back tomorrow morning when the building reopens.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Tomorrow morning? That's too late. I have a meeting early.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I'm sorry, sir. There's nothing I can do tonight. You can try contacting building management in the morning, they may be able to help you retrieve it sooner.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "This is a nightmare. Fine. What time do they open?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "8 AM, sir.",
+      "speaker": "SPEAKER_00"
+    }
+  ]

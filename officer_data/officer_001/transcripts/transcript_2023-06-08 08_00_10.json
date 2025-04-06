@@ -1,0 +1,46 @@
+[
+    {
+      "text": "Sir, I need you to keep your voice down. We've had complaints about the noise.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "What noise? We're just having a little get-together.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "It's past 11 PM, sir. The city's noise ordinance is in effect.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Come on, officer. It's Friday night. Give us a break.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I understand, but I've had multiple calls from your neighbors. They're trying to sleep.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Fine, fine. We'll turn it down. But this is ridiculous.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I appreciate your cooperation. Just keep it down for the rest of the night.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "Yeah, yeah. Whatever.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "If I get any more calls, I'll have to issue a citation. Please make sure everyone understands.",
+      "speaker": "SPEAKER_00"
+    },
+      {
+      "text": "Alright, we understand. We'll keep it quiet.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Thank you, sir. Have a good night.",
+      "speaker": "SPEAKER_00"
+    }
+  ]

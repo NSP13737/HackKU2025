@@ -1,0 +1,50 @@
+[
+    {
+      "text": "Ma'am, can I see your hands? Step away from the vehicle.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "What? I didn't do anything wrong. Why are you yelling at me?",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Just do as I say, ma'am. This is for your safety and mine.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "I'm not doing anything. I haven't done anything wrong.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Ma'am, I'm detecting a strong odor of alcohol coming from the vehicle. Have you been drinking?",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "So what if I had a couple of drinks? It's my night off.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "I understand, ma'am. But you're clearly intoxicated. I'm going to need you to step out of the vehicle for a field sobriety test.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "I'm not taking any tests. You have no right to do this.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "Ma'am, if you refuse, I'll be forced to arrest you. Please cooperate.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "This is ridiculous. I'm calling my lawyer.",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "text": "That's your right, ma'am. But right now, I need you to step out of the vehicle for the test.",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "text": "(Sound of heavy sigh) Fine. But I'm telling you, this is going to be a mess.",
+      "speaker": "SPEAKER_01"
+    }
+  ]

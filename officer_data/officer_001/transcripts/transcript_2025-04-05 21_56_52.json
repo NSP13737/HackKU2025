@@ -1,0 +1,14 @@
+[
+  {
+    "start": 0.352,
+    "end": 0.98,
+    "text": " Hello there.",
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "start": 2.012,
+    "end": 3.105,
+    "text": "This is a test.",
+    "speaker": "SPEAKER_00"
+  }
+]

@@ -17,10 +17,10 @@ st.title("Police Dashcam Report Summary")
 # Sidebar
 st.sidebar.title("Summaries")
 
-# if st.sidebar.button("Summarize file path"):
-#     summarizer = TranscriptSummarizer()
-#     summary = summarizer.generate_summary()
-#     st.write(summary)
+if st.sidebar.button("Summarize file path"):
+    summarizer = TranscriptSummarizer()
+    summary = summarizer.generate_summary()
+    st.write(summary)
 
 if st.sidebar.button("03/02/2025 Summary"):
     st.subheader("Summary for 03/02/2025")

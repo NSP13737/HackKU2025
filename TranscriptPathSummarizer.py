@@ -4,15 +4,15 @@ from google import genai
 from google.genai.types import GenerateContentConfig
 
 class TranscriptSummarizer:
-    def __init__(self, key="AIzaSyANFwup2wz2SVRrgCRmTUOedpJmADJ5CAQ", officer_number="001", search_path='officer_data/officer_001/transcripts', system_instruction=None):
+    def __init__(self, key="AIzaSyANFwup2wz2SVRrgCRmTUOedpJmADJ5CAQ", officer_number="001", base_path=None, system_instruction=None):
         """
         Initializes the TranscriptSummarizer with the API key, officer number (used for file paths),
         and an optional system instruction for the dialogue analysis.
         """
         self.key = key
         self.officer_number = officer_number
-        #self.base_path = base_path or os.getcwd()
-        self.search_path = os.path.join(os.getcwd(), search_path)
+        self.base_path = base_path or os.getcwd()
+        self.officer_path = os.path.join(self.base_path, f"officer_data/officer_{self.officer_number}")
         
         # Initialize the GenAI client once
         self.client = genai.Client(api_key=self.key)
@@ -25,6 +25,9 @@ class TranscriptSummarizer:
                 "- Tracks speaker dynamics and roles\n"
                 "- Highlights chronological progression\n"
                 "- Presents main points in bullet format"
+            )
+            system_instruction = (
+                "You are summarizing a log of audio filed from police officer (badge number 001) talking to citizens around the community while on duty. Your job is to summarize the logs in such a way that it provides the officer with information"
             )
         self.system_instruction = system_instruction
 
@@ -56,11 +59,11 @@ class TranscriptSummarizer:
 
     def generate_summary(self, transcripts_subdir='transcripts', summary_subdir='summaries', summary_filename='summary.txt'):
         """
-        Processes the transcripts from the given subdirectory (relative to search_path),
+        Processes the transcripts from the given subdirectory (relative to officer_path),
         calls the GenAI API to generate a summary, writes the summary to a file in the
         specified summaries subdirectory, and returns the summary text.
         """
-        transcripts_path = os.path.join(self.search_path, transcripts_subdir)
+        transcripts_path = os.path.join(self.officer_path, transcripts_subdir)
         long_text = self.process_files(transcripts_path)
         
         # API call to generate the content
@@ -73,7 +76,7 @@ class TranscriptSummarizer:
         )
         
         # Ensure the summaries directory exists
-        summary_dir = os.path.join(self.search_path, summary_subdir)
+        summary_dir = os.path.join(self.officer_path, summary_subdir)
         os.makedirs(summary_dir, exist_ok=True)
         summary_path = os.path.join(summary_dir, summary_filename)
         

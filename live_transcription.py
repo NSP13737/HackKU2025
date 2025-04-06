@@ -48,6 +48,8 @@ def getDiarizedTranscript(audio_file_path):
     output = result["segments"]
     for i in range(len(output)):
         output[i].pop('words')
+        output[i].pop('start')
+        output[i].pop('end')
 
     return json.dumps(output, indent=2) # segments are now assigned speaker IDs
 

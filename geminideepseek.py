@@ -28,21 +28,7 @@ def process_files():
                 try:
                     with open(file_path, 'r', encoding='utf-8') as f:
                         json_data = json.load(f)
-                        
-                        # Modified formatting for dialogue entries
-                        formatted_contents = [
-                            {
-                                "role": "user",
-                                "parts": [{
-                                    "text": (
-                                        f"[{entry['speaker']} @ {entry['start']:.1f}s]\n"
-                                        f"{entry['text']}\n"
-                                        f"(Duration: {entry['end']-entry['start']:.1f}s)"
-                                    )
-                                }]
-                            }
-                            for entry in json_data  # Direct list iteration
-                        ]
+    
                         
                         # API call
                         response = client.models.generate_content(
@@ -50,7 +36,7 @@ def process_files():
                             config=GenerateContentConfig(
                                 system_instruction=SYSTEM_INSTRUCTION
                             ),
-                            contents=formatted_contents
+                            contents=str(json_data)
                         )
                         
                         summary = response.text.strip()
